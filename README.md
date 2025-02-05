@@ -23,3 +23,9 @@ The trained model not only classifies MRI images but also moves the correctly cl
 - **Image Classification & Sorting**: The system classifies MRI images and sorts them into directories based on their predicted labels for 'tumor' or 'non-tumor'.
 
 ![Running Data](img/running.png)
+
+## License
+
+Copyright (c) 2025 Turc Raul
+
+All rights reserved. This project is for educational purposes only and may not be reused or redistributed without explicit permission.
