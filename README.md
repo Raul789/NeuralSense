@@ -1,6 +1,6 @@
 # NeuralSense: Brain Tumor Detection Software using Convolutional Neural Networks (CNN)
 
-![NeuralSense Logo](/Users/macbook/Desktop/MASTER/ML/NeuralSense-master/img/NeuralSense.rectangular.png)
+![NeuralSense Logo](img/NeuralSense.rectangular.png)
 
 ## Overview
 
@@ -11,16 +11,15 @@ The trained model not only classifies MRI images but also moves the correctly cl
 ## Features
 
 - **Image Preprocessing**: Cropping brain contours from MRI images to focus on the tumor regions for enhanced classification accuracy.
-  
-  ![Tumorous MRI Example](/Users/macbook/Desktop/MASTER/ML/NeuralSense-master/img/Tumorous.png)
 
-  ![Non-Tumorous MRI Example](/Users/macbook/Desktop/MASTER/ML/NeuralSense-master/img/NonTumorous.png)
+  ![Tumorous MRI Example](img/Tumorous.png)
+
+  ![Non-Tumorous MRI Example](img/NonTumorous.png)
 
 - **Model Architecture**: A CNN-based neural network designed to accurately classify images as 'tumor' or 'non-tumor'.
 - **Data Augmentation**: Utilizes augmented data to improve model robustness and generalization.
 - **Performance Metrics**: Tracks and logs performance metrics including accuracy, precision, recall, F1 score, and ROC AUC to evaluate model performance.
 - **Model Checkpoints & TensorBoard**: Monitors the model's training progress and saves the best-performing model for future use.
 - **Image Classification & Sorting**: The system classifies MRI images and sorts them into directories based on their predicted labels for 'tumor' or 'non-tumor'.
-  
-![Running Data](/Users/macbook/Desktop/MASTER/ML/NeuralSense-master/img/running.png)
 
+![Running Data](img/running.png)
